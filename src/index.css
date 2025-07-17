@@ -1,13 +1,28 @@
+/* Este archivo contiene estilos globales para la aplicación */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0A0A2A;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Estilos para imágenes de placeholder */
+.placeholder-img {
+  background: linear-gradient(135deg, #2C2C54 0%, #0A0A2A 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00BFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
 }

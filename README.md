@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Nex-Technology Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un sitio web moderno para Nex-Technology, una empresa ficticia de soluciones tecnológicas. El sitio está construido con React y utiliza tecnologías modernas como React Router, Styled Components y Framer Motion para crear una experiencia de usuario atractiva y dinámica.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Diseño moderno y responsive
+- Animaciones fluidas con Framer Motion
+- Navegación entre páginas con React Router
+- Estilos con Styled Components
+- Formulario de contacto interactivo
+- Componentes reutilizables
 
-### `npm start`
+## Estructura del Proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `/src/components`: Componentes reutilizables
+- `/src/pages`: Páginas principales del sitio
+- `/src/styles`: Estilos globales y tema
+- `/public/images`: Imágenes del sitio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Páginas
 
-### `npm test`
+- **Inicio**: Presentación de la empresa y servicios destacados
+- **Nosotros**: Historia, misión, visión y valores de la empresa
+- **Servicios**: Detalle de los servicios ofrecidos
+- **Proyectos**: Portafolio de proyectos realizados
+- **Equipo**: Información sobre el equipo de trabajo
+- **Contacto**: Formulario de contacto y ubicación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cómo ejecutar el proyecto
 
-### `npm run build`
+1. Asegúrate de tener Node.js instalado en tu sistema
+2. Clona este repositorio
+3. Instala las dependencias con `npm install`
+4. Ejecuta el proyecto en modo desarrollo con `npm start`
+5. Abre [http://localhost:3000](http://localhost:3000) para verlo en el navegador
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Construir para producción
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para crear una versión optimizada para producción, ejecuta:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm run build
+```
 
-### `npm run eject`
+Esto generará una carpeta `build` con los archivos optimizados listos para ser desplegados.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tecnologías utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- React Router
+- Styled Components
+- Framer Motion
+- React Icons
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Notas importantes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Las imágenes utilizadas son placeholders y deben ser reemplazadas por imágenes reales antes de usar el sitio en producción.
+- El formulario de contacto es una simulación y debe ser conectado a un backend real para procesar los envíos.
 
-## Learn More
+## Licencia
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia MIT.
