@@ -59,7 +59,7 @@ const Contact = () => {
 
   return (
     <>
-      <PageHeader bgImage="/images/landscape.png">
+      <PageHeader bgImage="%PUBLIC_URL%/images/landscape.png">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

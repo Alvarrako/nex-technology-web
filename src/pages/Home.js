@@ -210,7 +210,7 @@ const Home = () => {
 // Hero Section Styles
 const HeroSection = styled.section`
   position: relative;
-  background: url('/images/landscape.png') center/cover no-repeat;
+  background: url('%PUBLIC_URL%/images/landscape.png') center/cover no-repeat;
   padding: 180px 0 100px;
   overflow: hidden;
   

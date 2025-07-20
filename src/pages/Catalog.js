@@ -120,7 +120,7 @@ const Catalog = () => {
 
   return (
     <>
-      <PageHeader bgImage="/images/landscape.png">
+      <PageHeader bgImage="%PUBLIC_URL%/images/landscape.png">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -161,7 +161,7 @@ const Catalog = () => {
               <FadeInWhenVisible key={service.id} delay={index * 0.1}>
                 <ServiceCard>
                   <ServiceImageContainer>
-                    <ServiceImage src={`/images/${service.imageNumber}.png`} alt={service.title} />
+                    <ServiceImage src={`${process.env.PUBLIC_URL}/images/${service.imageNumber}.png`} alt={service.title} />
                   </ServiceImageContainer>
                   <ServiceContent>
                     <ServiceTitle>{service.title}</ServiceTitle>
